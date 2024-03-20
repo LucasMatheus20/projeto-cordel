@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+   body{
+    background-color: 
+    color:  white;
+    line-height: 1.2em;
+    
+
+   }
+
+:root{
+
+--fonte: Arial, Verdana , helvetica;
+
+
+}
+header{
+    background-color: black;
+    
+}
+header h1{
+    color:  white;
+    font-family: var(--fonte);
+    font-weight: bolder;
+    font-size: 2.5vw;
+
+}
+header p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+}
+div{
+    padding: 20px;
+    margin: 10px;
+
+
+
+}

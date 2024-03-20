@@ -1,46 +1,135 @@
 @charset "UTF-8";
 
-
-
 *{
-    margin: 0px;
+    margin: 0px ;
     padding: 0px;
+
 }
-   body{
-    background-color: 
-    color:  white;
-    line-height: 1.2em;
-    
-
-   }
-
+.header{
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+    background-size: cover;
+    text-shadow: 0px 0px 5px black;
+}
 :root{
 
---fonte: Arial, Verdana , helvetica;
-
-
-}
-header{
-    background-color: black;
+    --fonte-header: Verdana, Helvetica, Arial, Sans Serif;
+    --fonte-conteudo: Cursive;
+    
+    
+    
     
 }
-header h1{
-    color:  white;
-    font-family: var(--fonte);
-    font-weight: bolder;
-    font-size: 2.5vw;
-
-}
-header p{
+body{
+    background-color: yellow;
     color: white;
-    font-family: sans-serif;
-    font-weight: lighter;
+    padding: 10px;
+    min-height: 100vh;
 
 }
 div{
-    padding: 20px;
+    line-height: 1.3em;
     margin: 10px;
-
+    padding: 10px;
+    border-radius: 10px;
 
 
 }
+div.img{
+    font-family: var(--fonte-conteudo);
+}
+div.normal{
+    font-family: var(--fonte-conteudo);
+}
+
+
+.header{
+    background-color: black;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px black;
+    font-family: var(--fonte-header);
+}
+.header h1{
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 3.5vw;
+}
+.header p{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 2vw;
+}
+.header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+   
+    
+
+.img{
+    background-color: white;
+    color: black;
+}
+
+div p{
+    line-height: 1.5em;
+    font-size: 3vw;
+   padding: 20px;
+   display: inline-block;
+   text-align: justify;
+ 
+}
+
+    
+
+.footer{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+#img01{
+    background-image: url('../projeto-cordel/imagens/background001.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:  white;
+    background-attachment: fixed;
+
+}
+#img02{
+    background-image: url('../projeto-cordel/imagens/background002.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: white;
+}
+
+
+
+div.normal{
+    background-color: white;
+    color: black;
+
+}
+.img p{
+    display: block;
+    text-shadow: 1px 1px 6px black;
+    background-color: transparent;
+    border-radius: 10px;
+    border-width: 1px ;
+    backdrop-filter: blur(3px);
+    width: 300px;
+}
+
+
+
+
